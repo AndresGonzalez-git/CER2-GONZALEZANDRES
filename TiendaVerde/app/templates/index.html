@@ -1,0 +1,58 @@
+
+<!-- app/templates/index.html -->
+{% extends "base.html" %}
+{% block content %}
+<!-- Descripción de la Empresa -->
+<body>
+<header class="jumbotron text-center mt-4">
+    <h1>Tienda Verde</h1>
+    <h4>Somos emprendedores, buscamos aportar ambientalmente, por eso creamos y vendemos en base al reciclaje que nuestro planeta necesita.</h4>
+    <p>¿Qué esperas? el mundo quiere que lo ayudes.</p>
+</header>
+  
+
+<body>
+    <!-- Galería de Productos Destacados -->
+    <section class="container">
+        <h2 class="text-center">Productos Destacados</h2>
+        <div class="row">
+            <!-- LAMPARA -->
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="imagenes/lamparas.jpg" class="card-img-top " alt="Lampara de frascos de cristal reciclados">
+                    <div class="card-body">
+                        <p class="card-text">Lamparas de cristal</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--ADORNO FLORAL-->
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="imagenes/adorno floral.jpg" class="card-img-top" alt="Adorno mural de flores reciclado">
+                    <div class="card-body">
+                        <p class="card-text">Adorno colgante</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- Canasto -->
+
+
+
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="imagenes/canasto.jpg" class="card-img-top" alt="Canasto de papel de diario">
+                    <div class="card-body">
+                        <p class="card-text">Canasto</p>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </section>
+</body>
+{% endblock %}

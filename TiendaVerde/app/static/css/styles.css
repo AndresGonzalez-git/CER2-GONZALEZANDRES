@@ -1,0 +1,65 @@
+/* fuente y color de fondo*/
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #A4C639;
+    }
+
+    /*clase de bootrap para diseño a la descripcion de la empresa*/
+.jumbotron {
+    background-color: #A4C639;
+    color: #3F6C40;
+}
+h2{
+    color: #3F6C40;
+}
+
+/*el contenedor de cards (al comentarlo no hay cambio notorio)
+.container{
+    border-color: #151515;
+    
+}*/
+.card-img-top {
+    width: 100%; /* ocupar ancho */
+    height: 200px; /* altura */
+    object-fit: cover; /* recortar */
+}
+
+
+
+
+/*para sobre escribir valores predeterminados de bootstrap*/
+.btn {
+    color: #1C1C1C;
+    background-color: #9CDA7F;
+    border-color: #3F6C40;
+    border-bottom-color: #3F6C40;
+}
+
+
+/*estilo a las cards (hace que se mueva)*/
+.card:hover {
+    transform: scale(1.05);
+}
+
+/*estilo a las cards (hace transicion y otros cambios)*/
+.card {
+    transition: transform 0.2s;
+    color: #F4F4F4;
+    background-color: #3F6C40;
+    
+}
+/*responsividad*/
+@media (max-width: 768px) {  
+    .jumbotron {
+        padding: 1rem;
+    }
+}
+
+
+
+/*.carta_presentacion{
+    background-color: #B2EDC5;
+    color: #092327;
+
+}*/
